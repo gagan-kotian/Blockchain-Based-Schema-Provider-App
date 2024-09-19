@@ -9,7 +9,7 @@ This innovative application enables students to securely prove their academic cr
 - [Run Locally](##RunLocally)
 - [Environment Variables](##Environmentalvariables)
 - [Screenshots](#Screenshots)
-- [Demo](#Demo)
+  
 
 ## Features
 
@@ -61,6 +61,7 @@ Install my-project with npm
   npm install
   cd client
   npm install
+```
 
 
 Metamask Installation
@@ -81,7 +82,7 @@ Connect Metamask to the application:
 Once Metamask is installed and set up, connect it to the application to enable blockchain interactions.
 For detailed instructions on using Metamask, refer to the Metamask User Guide.
 
-```
+
 
 ## Environment Variables
 
