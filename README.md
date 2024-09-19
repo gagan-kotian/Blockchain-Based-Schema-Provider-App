@@ -2,8 +2,7 @@
 
 This innovative application enables students to securely prove their academic credentials and request schema solutions for specific question papers. By leveraging blockchain technology, students can send Ether to teachers as payment for their expertise. Teachers can then verify and provide the required schema, ensuring transparency and trust in the transaction. The app facilitates a seamless connection between students and educators, promoting a decentralized approach to academic support and information verification.
 
-##Index
-
+Index
 - [Features](#Features)
 - [Installation](#installation)
 - [Run Locally](##RunLocally)
@@ -62,38 +61,28 @@ Install my-project with npm
   cd client
   npm install
 ```
+## Metamask Installation
 
-
-Metamask Installation
 This project utilizes blockchain technology and smart contracts, requiring the installation of Metamask for Ethereum wallet functionality. Follow these steps to set up Metamask:
 
-Install Metamask:
-If you haven't already, install Metamask as a browser extension for your preferred browser (Chrome, Firefox, Brave, etc.). You can find Metamask and installation instructions at metamask.io.
+1. **Install Metamask:**
 
-Set up Metamask:
+   If you haven't already, install Metamask as a browser extension for your preferred browser (Chrome, Firefox, Brave, etc.). You can find Metamask and installation instructions at [metamask.io](https://metamask.io/).
 
-Create a new wallet or import an existing one.
-Connect Metamask to the Ethereum Mainnet or any other network your project interacts with.
-Configure your wallet:
+2. **Set up Metamask:**
 
-Ensure your wallet is funded with the appropriate Ethereum (ETH) or tokens required for interacting with this application's smart contracts.
-Connect Metamask to the application:
+   - Create a new wallet or import an existing one.
+   - Connect Metamask to the Ethereum Mainnet or any other network your project interacts with.
 
-Once Metamask is installed and set up, connect it to the application to enable blockchain interactions.
-For detailed instructions on using Metamask, refer to the Metamask User Guide.
+3. **Configure your wallet:**
 
+   Ensure your wallet is funded with the appropriate Ethereum (ETH) or tokens required for interacting with this application's smart contracts.
 
+4. **Connect Metamask to the application:**
 
-## Environment Variables
+   Once Metamask is installed and set up, connect it to the application to enable blockchain interactions.
 
-To run this project, you will need to add the following environment variables to your .env file
-
-```bash
-API_KEY=ADD_YOUR_API_KEY_HERE
-GOERLI_URL=ADD_RPC_URL_HERE
-PRIVATE_KEY=ADD_WALLET_PRIVATE_KEY_HERE
-
-```
+For detailed instructions on using Metamask, refer to the [Metamask User Guide](https://metamask.zendesk.com/hc/en-us/categories/360001824191).
 
 ## Run Locally
 
@@ -101,7 +90,6 @@ Clone the project
 
 ```bash
   git clone https://github.com/gagan-kotian/Blockchain-based-Electoral-Bond-Web-App.git
-
 ```
 
 Go to the project directory
@@ -115,37 +103,38 @@ Install dependencies
 ```bash
   npm install
 ```
-
-Deploy Smart Contract
-
+Deploy Smart contract
 ```bash
   npx hardhat run --network goerli scripts/finaldeploy.js
 ```
-
-Copy and paste the deployed contract address in App.js:
-
+copy and paste the deployed contract address in App.js
 ```bash
   const contractAddress = "0x0e32839B72AD8589F633F1Ce9ad94d13D1438630";
 ```
 
-Frontend Installation
-Go to the client directory
+Frontend install
 
 ```bash
-cd client
-```
-
-Install dependencies
-
-```bash
-npm install
+  cd client
+  npm install
 ```
 
 Start the server
 
 ```bash
-npm start
+  npm start
 ```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`API_KEY`
+
+GOERLI_URL=ADD RPC url
+
+PRIVATE_KEY=ADD Private key of wallet
 
 ## Tech Stack
 
