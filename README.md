@@ -89,7 +89,7 @@ For detailed instructions on using Metamask, refer to the [Metamask User Guide](
 Clone the project
 
 ```bash
-  git clone https://github.com/gagan-kotian/Blockchain-based-Electoral-Bond-Web-App.git
+  git clone https://github.com/gagan-kotian/Blockchain-Based-Schema-Provider-App.git
 ```
 
 Go to the project directory
