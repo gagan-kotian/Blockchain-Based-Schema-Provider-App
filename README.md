@@ -8,7 +8,7 @@ Index
 - [Run Locally](##RunLocally)
 - [Environment Variables](##Environmentalvariables)
 - [Screenshots](#Screenshots)
-  
+
 
 ## Features
 
